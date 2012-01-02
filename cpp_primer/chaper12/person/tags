@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+OBJECTS	makefile	/^OBJECTS = person.o$/;"	m
+Person	person.h	/^    Person(const std::string _name="null",$/;"	f	class:Person	access:public	signature:(const std::string _name=Ó, const std::string _address= Ó)
+Person	person.h	/^class Person{$/;"	c
+Person::Person	person.h	/^    Person(const std::string _name="null",$/;"	f	class:Person	access:public	signature:(const std::string _name=Ó, const std::string _address= Ó)
+Person::address	person.h	/^    std::string address;$/;"	m	class:Person	access:private
+Person::get_address	person.h	/^    const std::string get_address();$/;"	p	class:Person	access:public	signature:()
+Person::get_name	person.h	/^    const std::string get_name();$/;"	p	class:Person	access:public	signature:()
+Person::modify_info	person.h	/^    bool modify_info(const std::string _name,$/;"	p	class:Person	access:public	signature:(const std::string _name, const std::string _address)
+Person::name	person.h	/^    std::string name;$/;"	m	class:Person	access:private
+Person::print_info	person.h	/^    bool print_info(); $/;"	p	class:Person	access:public	signature:()
+Person::~Person	person.h	/^    virtual ~Person(){};$/;"	f	class:Person	access:public	signature:()
+_CHAPER12_PERSON_H	person.h	15;"	d
+address	person.h	/^    std::string address;$/;"	m	class:Person	access:private
+get_address	person.h	/^    const std::string get_address();$/;"	p	class:Person	access:public	signature:()
+get_name	person.h	/^    const std::string get_name();$/;"	p	class:Person	access:public	signature:()
+modify_info	person.h	/^    bool modify_info(const std::string _name,$/;"	p	class:Person	access:public	signature:(const std::string _name, const std::string _address)
+name	person.h	/^    std::string name;$/;"	m	class:Person	access:private
+print_info	person.h	/^    bool print_info(); $/;"	p	class:Person	access:public	signature:()
+~Person	person.h	/^    virtual ~Person(){};$/;"	f	class:Person	access:public	signature:()

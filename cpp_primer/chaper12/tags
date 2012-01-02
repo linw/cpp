@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AvgPrice	sales_item/Sales_item.h	/^    double AvgPrice() const;$/;"	p	class:SalesItem	access:public	signature:() const
+OBJECTS	makefile	/^OBJECTS = person_test.out$/;"	m
+OBJECTS	sales_item/makefile	/^OBJECTS = $/;"	m
+Person	person/person.h	/^    Person(const std::string _name="null",$/;"	f	class:Person	access:public	signature:(const std::string _name=Ó, const std::string _address= Ó)
+Person	person/person.h	/^class Person{$/;"	c
+Person::Person	person/person.h	/^    Person(const std::string _name="null",$/;"	f	class:Person	access:public	signature:(const std::string _name=Ó, const std::string _address= Ó)
+Person::address	person/person.h	/^    std::string address;$/;"	m	class:Person	access:private
+Person::get_address	person/person.cpp	/^const std::string Person::get_address()$/;"	f	class:Person	signature:()
+Person::get_address	person/person.h	/^    const std::string get_address();$/;"	p	class:Person	access:public	signature:()
+Person::get_name	person/person.cpp	/^const std::string Person::get_name()$/;"	f	class:Person	signature:()
+Person::get_name	person/person.h	/^    const std::string get_name();$/;"	p	class:Person	access:public	signature:()
+Person::modify_info	person/person.cpp	/^bool Person::modify_info(const std::string _name,$/;"	f	class:Person	signature:(const std::string _name, const std::string _address)
+Person::modify_info	person/person.h	/^    bool modify_info(const std::string _name,$/;"	p	class:Person	access:public	signature:(const std::string _name, const std::string _address)
+Person::name	person/person.h	/^    std::string name;$/;"	m	class:Person	access:private
+Person::print_info	person/person.cpp	/^bool Person::print_info()$/;"	f	class:Person	signature:()
+Person::print_info	person/person.h	/^    bool print_info(); $/;"	p	class:Person	access:public	signature:()
+Person::~Person	person/person.h	/^    virtual ~Person(){};$/;"	f	class:Person	access:public	signature:()
+SALES_ITEM_H	sales_item/Sales_item.h	15;"	d
+SalesItem	sales_item/Sales_item.h	/^   SalesItem(): units_sold(0), revenue(0.0) { }$/;"	f	class:SalesItem	access:public	signature:()
+SalesItem	sales_item/Sales_item.h	/^class SalesItem {$/;"	c
+SalesItem::AvgPrice	sales_item/Sales_item.h	/^    double AvgPrice() const;$/;"	p	class:SalesItem	access:public	signature:() const
+SalesItem::SalesItem	sales_item/Sales_item.h	/^   SalesItem(): units_sold(0), revenue(0.0) { }$/;"	f	class:SalesItem	access:public	signature:()
+SalesItem::SameIsbn	sales_item/Sales_item.h	/^    bool SameIsbn(const SalesItem &rhs) const$/;"	f	class:SalesItem	access:public	signature:(const SalesItem &rhs) const
+SalesItem::avg_price	sales_item/Sales_item.h	/^double SalesItem::avg_price() const$/;"	f	class:SalesItem	signature:() const
+SalesItem::isbn	sales_item/Sales_item.h	/^   std::string isbn;$/;"	m	class:SalesItem	access:private
+SalesItem::revenue	sales_item/Sales_item.h	/^   double revenue;$/;"	m	class:SalesItem	access:private
+SalesItem::units_sold	sales_item/Sales_item.h	/^   unsigned units_sold;$/;"	m	class:SalesItem	access:private
+SameIsbn	sales_item/Sales_item.h	/^    bool SameIsbn(const SalesItem &rhs) const$/;"	f	class:SalesItem	access:public	signature:(const SalesItem &rhs) const
+_CHAPER12_PERSON_H	person/person.h	15;"	d
+address	person/person.h	/^    std::string address;$/;"	m	class:Person	access:private
+avg_price	sales_item/Sales_item.h	/^double SalesItem::avg_price() const$/;"	f	class:SalesItem	signature:() const
+get_address	person/person.cpp	/^const std::string Person::get_address()$/;"	f	class:Person	signature:()
+get_address	person/person.h	/^    const std::string get_address();$/;"	p	class:Person	access:public	signature:()
+get_name	person/person.cpp	/^const std::string Person::get_name()$/;"	f	class:Person	signature:()
+get_name	person/person.h	/^    const std::string get_name();$/;"	p	class:Person	access:public	signature:()
+isbn	sales_item/Sales_item.h	/^   std::string isbn;$/;"	m	class:SalesItem	access:private
+main	person/test.cpp	/^int main()$/;"	f	signature:()
+modify_info	person/person.cpp	/^bool Person::modify_info(const std::string _name,$/;"	f	class:Person	signature:(const std::string _name, const std::string _address)
+modify_info	person/person.h	/^    bool modify_info(const std::string _name,$/;"	p	class:Person	access:public	signature:(const std::string _name, const std::string _address)
+name	person/person.h	/^    std::string name;$/;"	m	class:Person	access:private
+print_info	person/person.cpp	/^bool Person::print_info()$/;"	f	class:Person	signature:()
+print_info	person/person.h	/^    bool print_info(); $/;"	p	class:Person	access:public	signature:()
+revenue	sales_item/Sales_item.h	/^   double revenue;$/;"	m	class:SalesItem	access:private
+units_sold	sales_item/Sales_item.h	/^   unsigned units_sold;$/;"	m	class:SalesItem	access:private
+~Person	person/person.h	/^    virtual ~Person(){};$/;"	f	class:Person	access:public	signature:()

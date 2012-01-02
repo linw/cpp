@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AlreadyHave	learn_multimap.cpp	/^bool AlreadyHave(multimap<string, string> &mulMap,$/;"	f
+BuildMap	TestFinder/TextQuery.cpp	/^void TextQuery::BuildMap(){$/;"	f	class:TextQuery
+FindAndErase	learn_multimap.cpp	/^void FindAndErase(multimap<string, string> &authorBook,$/;"	f
+OBJECTS	TestFinder/makefile	/^OBJECTS = main.out$/;"	m
+OBJECTS	makefile	/^OBJECTS = word_transform.out 101.out learn_set.out delete_s.out learn_multimap.out$/;"	m
+PrintResults	TestFinder/main.cpp	/^void PrintResults(const set<TextQuery::line_no>& locs,$/;"	f
+ReadFile	TestFinder/TextQuery.h	/^    void ReadFile(std::ifstream &is){$/;"	f	class:TextQuery
+RunQuery	TestFinder/TextQuery.cpp	/^TextQuery::RunQuery(const string &queryWord) const$/;"	f	class:TextQuery
+StoreFile	TestFinder/TextQuery.cpp	/^void TextQuery::StoreFile(ifstream &is){$/;"	f	class:TextQuery
+TEXTFINDER_TEXTQUERY_H	TestFinder/TextQuery.h	10;"	d
+TextLine	TestFinder/TextQuery.cpp	/^string TextQuery::TextLine(TextQuery::line_no ln) const{$/;"	f	class:TextQuery
+TextQuery	TestFinder/TextQuery.h	/^class TextQuery{$/;"	c
+delete_s	delete_s.cpp	/^void delete_s(ifstream &ignore_file,$/;"	f
+line_no	TestFinder/TextQuery.h	/^    typedef std::vector<std::string>::size_type line_no;$/;"	t	class:TextQuery
+linesOfText	TestFinder/TextQuery.h	/^    std::vector<std::string> linesOfText;$/;"	m	class:TextQuery
+main	101.cpp	/^int main()$/;"	f
+main	1018.cpp	/^int main()$/;"	f
+main	109.cpp	/^int main(){$/;"	f
+main	TestFinder/main.cpp	/^int main()$/;"	f
+main	delete_s.cpp	/^int main(int argc, char **argv)$/;"	f
+main	learn_multimap.cpp	/^int main(int argc, char **argv){$/;"	f
+main	learn_set.cpp	/^int main()$/;"	f
+main	test.cpp	/^int main()$/;"	f
+main	word_transform.cpp	/^int main(int argc, char **argv){$/;"	f
+open_file	word_transform.cpp	/^ifstream& open_file(ifstream &in, const string &file)$/;"	f
+test1	test.cpp	/^void test1(){$/;"	f
+test2	test.cpp	/^void test2(){$/;"	f
+wordMap	TestFinder/TextQuery.h	/^    std::map<std::string, std::set<line_no> > wordMap;$/;"	m	class:TextQuery

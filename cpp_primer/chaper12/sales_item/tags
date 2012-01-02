@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AvgPrice	Sales_item.h	/^    double AvgPrice() const;$/;"	p	class:SalesItem	access:public	signature:() const
+OBJECTS	makefile	/^OBJECTS = $/;"	m
+SALES_ITEM_H	Sales_item.h	15;"	d
+SalesItem	Sales_item.h	/^   SalesItem(): units_sold(0), revenue(0.0) { }$/;"	f	class:SalesItem	access:public	signature:()
+SalesItem	Sales_item.h	/^class SalesItem {$/;"	c
+SalesItem::AvgPrice	Sales_item.h	/^    double AvgPrice() const;$/;"	p	class:SalesItem	access:public	signature:() const
+SalesItem::SalesItem	Sales_item.h	/^   SalesItem(): units_sold(0), revenue(0.0) { }$/;"	f	class:SalesItem	access:public	signature:()
+SalesItem::SameIsbn	Sales_item.h	/^    bool SameIsbn(const SalesItem &rhs) const$/;"	f	class:SalesItem	access:public	signature:(const SalesItem &rhs) const
+SalesItem::isbn	Sales_item.h	/^   std::string isbn;$/;"	m	class:SalesItem	access:private
+SalesItem::revenue	Sales_item.h	/^   double revenue;$/;"	m	class:SalesItem	access:private
+SalesItem::units_sold	Sales_item.h	/^   unsigned units_sold;$/;"	m	class:SalesItem	access:private
+SameIsbn	Sales_item.h	/^    bool SameIsbn(const SalesItem &rhs) const$/;"	f	class:SalesItem	access:public	signature:(const SalesItem &rhs) const
+isbn	Sales_item.h	/^   std::string isbn;$/;"	m	class:SalesItem	access:private
+main	Sales_item.cpp	/^int main()                                      \/*  *\/$/;"	f	signature:()
+revenue	Sales_item.h	/^   double revenue;$/;"	m	class:SalesItem	access:private
+units_sold	Sales_item.h	/^   unsigned units_sold;$/;"	m	class:SalesItem	access:private

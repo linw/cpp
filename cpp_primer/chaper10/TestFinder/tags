@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BuildMap	TextQuery.cpp	/^void TextQuery::BuildMap(){$/;"	f	class:TextQuery	signature:()
+BuildMap	TextQuery.h	/^    void BuildMap(); \/\/ associated each word with a set of line numbers$/;"	p	class:TextQuery	access:private	signature:()
+OBJECTS	makefile	/^OBJECTS = main.out$/;"	m
+PrintResults	main.cpp	/^void PrintResults(const set<TextQuery::line_no>& locs,$/;"	f	signature:(const set<TextQuery::line_no>& locs, const string& sought, const TextQuery &file)
+ReadFile	TextQuery.h	/^    void ReadFile(std::ifstream &is){$/;"	f	class:TextQuery	access:public	signature:(std::ifstream &is)
+RunQuery	TextQuery.cpp	/^TextQuery::RunQuery(const string &queryWord) const$/;"	f	class:TextQuery	signature:(const string &queryWord) const
+RunQuery	TextQuery.h	/^    std::set<line_no> RunQuery(const std::string&) const;$/;"	p	class:TextQuery	access:public	signature:(const std::string&) const
+StoreFile	TextQuery.cpp	/^void TextQuery::StoreFile(ifstream &is){$/;"	f	class:TextQuery	signature:(ifstream &is)
+StoreFile	TextQuery.h	/^    void StoreFile(std::ifstream&); \/\/ store input file$/;"	p	class:TextQuery	access:private	signature:(std::ifstream&)
+TEXTFINDER_TEXTQUERY_H	TextQuery.h	10;"	d
+TextLine	TextQuery.cpp	/^string TextQuery::TextLine(TextQuery::line_no ln) const{$/;"	f	class:TextQuery	signature:(TextQuery::line_no ln) const
+TextLine	TextQuery.h	/^    std::string TextLine(TextQuery::line_no) const;$/;"	p	class:TextQuery	access:public	signature:(TextQuery::line_no) const
+TextQuery	TextQuery.h	/^class TextQuery{$/;"	c
+TextQuery::BuildMap	TextQuery.cpp	/^void TextQuery::BuildMap(){$/;"	f	class:TextQuery	signature:()
+TextQuery::BuildMap	TextQuery.h	/^    void BuildMap(); \/\/ associated each word with a set of line numbers$/;"	p	class:TextQuery	access:private	signature:()
+TextQuery::ReadFile	TextQuery.h	/^    void ReadFile(std::ifstream &is){$/;"	f	class:TextQuery	access:public	signature:(std::ifstream &is)
+TextQuery::RunQuery	TextQuery.cpp	/^TextQuery::RunQuery(const string &queryWord) const$/;"	f	class:TextQuery	signature:(const string &queryWord) const
+TextQuery::RunQuery	TextQuery.h	/^    std::set<line_no> RunQuery(const std::string&) const;$/;"	p	class:TextQuery	access:public	signature:(const std::string&) const
+TextQuery::StoreFile	TextQuery.cpp	/^void TextQuery::StoreFile(ifstream &is){$/;"	f	class:TextQuery	signature:(ifstream &is)
+TextQuery::StoreFile	TextQuery.h	/^    void StoreFile(std::ifstream&); \/\/ store input file$/;"	p	class:TextQuery	access:private	signature:(std::ifstream&)
+TextQuery::TextLine	TextQuery.cpp	/^string TextQuery::TextLine(TextQuery::line_no ln) const{$/;"	f	class:TextQuery	signature:(TextQuery::line_no ln) const
+TextQuery::TextLine	TextQuery.h	/^    std::string TextLine(TextQuery::line_no) const;$/;"	p	class:TextQuery	access:public	signature:(TextQuery::line_no) const
+TextQuery::line_no	TextQuery.h	/^    typedef std::vector<std::string>::size_type line_no;$/;"	t	class:TextQuery	access:public
+TextQuery::linesOfText	TextQuery.h	/^    std::vector<std::string> linesOfText;$/;"	m	class:TextQuery	access:private
+TextQuery::wordMap	TextQuery.h	/^    std::map<std::string, std::set<line_no> > wordMap;$/;"	m	class:TextQuery	access:private
+line_no	TextQuery.h	/^    typedef std::vector<std::string>::size_type line_no;$/;"	t	class:TextQuery	access:public
+linesOfText	TextQuery.h	/^    std::vector<std::string> linesOfText;$/;"	m	class:TextQuery	access:private
+main	main.cpp	/^int main()$/;"	f	signature:()
+wordMap	TextQuery.h	/^    std::map<std::string, std::set<line_no> > wordMap;$/;"	m	class:TextQuery	access:private
